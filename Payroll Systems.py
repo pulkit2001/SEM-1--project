@@ -4,6 +4,7 @@ import time
 import random
 import time
 import datetime
+#import
 
 payroll= Tk()
 payroll.geometry("1350x650+0+0")
@@ -11,6 +12,7 @@ payroll.title("Payroll Management Systems")
 
 def Exit():
     payroll.destroy()
+    #"Exit command"
 
 def Reset():
     EmployeeName.set("")
